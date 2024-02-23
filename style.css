@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background-color: #f333;
+}
+
+.container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.item-card {
+    background-color: #f0f0f0;
+    width: 20vw;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+.item-card h3 {
+    padding: 0 .5em;
+}
+
+.card-top {
+    padding: 0;
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.card-bottom {
+    box-sizing: border-box;
+    padding: .5em;
+}
+
+.description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.price {
+    font-weight: 600;
+}
+header {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding; 10px;
+       background-color: #f0f0f0;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+}
+
+header input[type="text"] {
+        padding: 5px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+}
+
+header button[type="submit"] {
+        padding: 5px 10px;
+        background-color: #f333;
+        color: #fff;
+        border: none;
+}
+
+header nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+header nav. icon{
+    width: 30px;
+    height: auto;
+}
+body main h1{
+    text-align:center;
+    font-family:FreeMono, monospace;
+}
+footer{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-between;
+       padding:10px;
+       margin-top:150px;
+       padding-bottom: 10px;
+       background-color: #f0f0f0;
+}
+footer div img{
+    display: flex;
+    align-items: center;
+    padding-left:50px;
+    width: 20%;
+}
+footer div a{
+    display: flex;
+    align-items: center;
+    padding-left:55px;
+    text-decoration:none;
+    color: black;
+    padding-bottom:1px;
+    width: 20%;
+}
